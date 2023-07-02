@@ -1,0 +1,42 @@
+* {
+    font-size: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: #fff; */
+    background-color: #a8c4b8;
+    height: 5vh;
+}
+
+.header-div>a {
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    cursor: pointer;
+    gap: 0.5rem;
+    font-weight: 700;
+}
+
+#header-heart {
+    font-size: 2.4rem;
+    color: #ff0000;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-nav>a {
+    background-color: #4c5953;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+}

@@ -1,0 +1,29 @@
+* {
+    font-size: 10px;
+    font-family: 'Open Sans';
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: #fff; */
+    background-color: #a8c4b8;
+    height: 5vh;
+    margin-top: auto;
+}
+
+.footer>div {
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    cursor: pointer;
+    gap: 0.5rem;
+    font-weight: 700;
+}
+
+#footer-heart {
+    font-size: 2.4rem;
+    color: #ff0000;
+}
